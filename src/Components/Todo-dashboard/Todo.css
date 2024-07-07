@@ -1,0 +1,70 @@
+.todo-dash {
+  min-height: 100vh;
+  background-color: #f0f0f0;
+  justify-content: center;
+  align-items: center;
+}
+.todo-container {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 6px;
+  border: 1px solid lightgray;
+  text-align: center;
+}
+.todo-title {
+  padding: 20px 0px;
+}
+.logout-btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.logout-btn button {
+  color: gray;
+  border: 1px solid gray;
+}
+.logout-btn button:hover {
+  border: 1px solid rgb(24, 24, 24);
+  background-color: rgb(102, 102, 102);
+  color: #fff;
+}
+
+.add-btn {
+  margin: 20px 0px;
+}
+.btn-tab {
+  margin: 30px 0px;
+}
+.todo-list {
+  margin: 30px 0px;
+  text-align: left;
+}
+.todo-list h5 {
+  color: gray;
+}
+.todo-item-btn {
+  margin: 0px 10px;
+}
+.todo-item-btn button {
+  background-color: rgb(122, 120, 120);
+  color: aliceblue;
+}
+.todo-item-btn button:hover {
+  background-color: rgb(75, 73, 73);
+}
+.last-btn button {
+  background-color: rgb(63, 63, 63);
+  border: none;
+  color: aliceblue;
+  margin: 20px 10px;
+}
+.last-btn button:hover {
+  background-color: rgb(96, 94, 94);
+}
+.usertitle {
+  margin: 30px 10px;
+  font-size: larger;
+  font-weight: 500;
+  color: rgb(63, 63, 63);
+}
